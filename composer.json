@@ -1,0 +1,29 @@
+{
+  "name": "ensi/apiship-sdk-php",
+  "description": "Inegration (SDK) with Apiship API",
+  "keywords": [
+    "Apiship",
+    "sdk",
+    "integration",
+    "REST"
+  ],
+  "minimum-stability": "dev",
+  "type": "extension",
+  "authors": [
+    {
+      "name": "Evgeny Bereza",
+      "email": "bereza@greensight.ru"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Apiship\\": "src"
+    }
+  },
+  "require": {
+    "php": ">=5.5.0"
+  },
+  "suggests": {
+    "guzzlehttp/guzzle": "Needed if you want to use GuzzleAdapter"
+  }
+}
