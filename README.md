@@ -30,6 +30,10 @@ $headers = $apiship->adapter->getLatestResponseHeaders();
 $xTraingId = $headers['x-tracing-id'];
 ```
 
+##Изменения относительно исходного пакета
+
+1. Пакет guzzlehttp/guzzle вынесен в suggests
+
 ## Лицензия
 
 [The MIT License (MIT)](LICENSE.md).
